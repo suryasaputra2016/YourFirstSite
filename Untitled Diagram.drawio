@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0.1 Safari/605.1.15" version="24.7.17">
   <diagram name="Page-1" id="FJorfkHVYFoN-ZscNLOa">
-    <mxGraphModel dx="954" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="EFDMO_l-XEe7Pk2dT_da-1" value="Destinations" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="200" width="220" height="180" as="geometry" />
+          <mxGeometry x="110" y="210" width="220" height="180" as="geometry" />
         </mxCell>
         <mxCell id="EFDMO_l-XEe7Pk2dT_da-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-1">
           <mxGeometry y="30" width="220" height="30" as="geometry" />
@@ -73,7 +73,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EFDMO_l-XEe7Pk2dT_da-40" value="Hotels" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="200" width="200" height="180" as="geometry" />
+          <mxGeometry x="570" y="200" width="200" height="180" as="geometry" />
         </mxCell>
         <mxCell id="EFDMO_l-XEe7Pk2dT_da-41" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-40">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
@@ -141,7 +141,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EFDMO_l-XEe7Pk2dT_da-57" value="Bookings" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="200" width="200" height="180" as="geometry" />
+          <mxGeometry x="900" y="200" width="200" height="180" as="geometry" />
         </mxCell>
         <mxCell id="EFDMO_l-XEe7Pk2dT_da-58" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-57">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
@@ -218,6 +218,236 @@
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="530" y="490" as="sourcePoint" />
             <mxPoint x="510" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-100" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="20" y="460" width="460" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-101" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-100">
+          <mxGeometry width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-102" value="id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-101">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-103" value="name" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-101">
+          <mxGeometry x="40" width="120" height="40" as="geometry">
+            <mxRectangle width="120" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-104" value="country" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-101">
+          <mxGeometry x="160" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-105" value="description" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-101">
+          <mxGeometry x="220" width="190" height="40" as="geometry">
+            <mxRectangle width="190" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-106" value="rating" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-101">
+          <mxGeometry x="410" width="50" height="40" as="geometry">
+            <mxRectangle width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-107" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-100">
+          <mxGeometry y="40" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-108" value="1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-107">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-109" value="Lake Toba" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-107">
+          <mxGeometry x="40" width="120" height="40" as="geometry">
+            <mxRectangle width="120" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-110" value="Indonesia" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-107">
+          <mxGeometry x="160" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-111" value="One of the largest lake in the world" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-107">
+          <mxGeometry x="220" width="190" height="40" as="geometry">
+            <mxRectangle width="190" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-112" value="4" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-107">
+          <mxGeometry x="410" width="50" height="40" as="geometry">
+            <mxRectangle width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-113" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-100">
+          <mxGeometry y="80" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-114" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-113">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-115" value="Pyramid of Giza" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-113">
+          <mxGeometry x="40" width="120" height="40" as="geometry">
+            <mxRectangle width="120" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-116" value="Egypt" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-113">
+          <mxGeometry x="160" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-117" value="The biggest pyramid in the world" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-113">
+          <mxGeometry x="220" width="190" height="40" as="geometry">
+            <mxRectangle width="190" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-118" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-113">
+          <mxGeometry x="410" width="50" height="40" as="geometry">
+            <mxRectangle width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-119" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-100">
+          <mxGeometry y="120" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-120" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-119">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-121" value="The Great Wall" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-119">
+          <mxGeometry x="40" width="120" height="40" as="geometry">
+            <mxRectangle width="120" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-122" value="Chine" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-119">
+          <mxGeometry x="160" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-123" value="The longest wall in the world" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-119">
+          <mxGeometry x="220" width="190" height="40" as="geometry">
+            <mxRectangle width="190" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-124" value="4" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-119">
+          <mxGeometry x="410" width="50" height="40" as="geometry">
+            <mxRectangle width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-126" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="520" y="460" width="460" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-127" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-126">
+          <mxGeometry width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-128" value="id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-127">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-129" value="name" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-127">
+          <mxGeometry x="40" width="120" height="40" as="geometry">
+            <mxRectangle width="120" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-130" value="country" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-127">
+          <mxGeometry x="160" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-131" value="description" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-127">
+          <mxGeometry x="220" width="190" height="40" as="geometry">
+            <mxRectangle width="190" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-132" value="rating" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-127">
+          <mxGeometry x="410" width="50" height="40" as="geometry">
+            <mxRectangle width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-133" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-126">
+          <mxGeometry y="40" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-134" value="1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-133">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-135" value="Lake Toba" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-133">
+          <mxGeometry x="40" width="120" height="40" as="geometry">
+            <mxRectangle width="120" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-136" value="Indonesia" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-133">
+          <mxGeometry x="160" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-137" value="One of the largest lake in the world" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-133">
+          <mxGeometry x="220" width="190" height="40" as="geometry">
+            <mxRectangle width="190" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-138" value="4" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-133">
+          <mxGeometry x="410" width="50" height="40" as="geometry">
+            <mxRectangle width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-139" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-126">
+          <mxGeometry y="80" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-140" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-139">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-141" value="Pyramid of Giza" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-139">
+          <mxGeometry x="40" width="120" height="40" as="geometry">
+            <mxRectangle width="120" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-142" value="Egypt" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-139">
+          <mxGeometry x="160" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-143" value="The biggest pyramid in the world" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-139">
+          <mxGeometry x="220" width="190" height="40" as="geometry">
+            <mxRectangle width="190" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-144" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-139">
+          <mxGeometry x="410" width="50" height="40" as="geometry">
+            <mxRectangle width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-145" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-126">
+          <mxGeometry y="120" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-146" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-145">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-147" value="The Great Wall" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-145">
+          <mxGeometry x="40" width="120" height="40" as="geometry">
+            <mxRectangle width="120" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-148" value="Chine" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-145">
+          <mxGeometry x="160" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-149" value="The longest wall in the world" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-145">
+          <mxGeometry x="220" width="190" height="40" as="geometry">
+            <mxRectangle width="190" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFDMO_l-XEe7Pk2dT_da-150" value="4" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="EFDMO_l-XEe7Pk2dT_da-145">
+          <mxGeometry x="410" width="50" height="40" as="geometry">
+            <mxRectangle width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
